@@ -1,0 +1,36 @@
+/*
+#overview
+Gulp入門サンプル02
+
+*/
+ 
+/*#styleguide
+リンク
+ 
+リンクスタイル
+ 
+```
+<p class="link2">見出し1</p>
+```
+*/
+
+h1 {
+	font-weight: bold;
+	color: #444;
+}
+.link2 {
+	color: #0FF;
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+	&:disabled {
+		color: #FF0;
+	}
+	&.primary {
+		font-weight: bold;
+	}
+	&.smaller {
+		font-size: 10px;
+	}
+}

@@ -1,0 +1,62 @@
+@import "_base";
+
+/*
+#overview
+Gulp入門サンプル
+ 
+サンプルファイルです
+*/
+ 
+/*
+#styleguide
+サンプル見出し1
+ 
+サンプルの見出しスタイル
+hoverすると青く2倍になる
+ 
+```
+<h1>見出し1</h1>
+```
+*/
+
+h1 {
+	font-weight: bold;
+	color: #444;
+}
+
+
+/*
+#colors
+
+@primary #996600
+@secondary #333
+@color-name color-code
+
+
+
+/*
+#styleguide
+リンク
+ 
+サンプルの見出しスタイル
+hoverすると青く2倍になる
+ 
+```
+<a href="#" class="link">リンク</a>
+<a href="#" class="link secondary">link</a>
+```
+*/
+
+.link {
+	text-decoration: underline;
+	color: #0FF;
+	&:hover {
+		text-decoration: none;
+	}
+	&.secondary {
+		color: #FF0;
+	}
+}
+
+
+

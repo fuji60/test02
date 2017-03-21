@@ -1,0 +1,43 @@
+{
+  "name": "test02",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "frontnote": "^2.0.5",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-frontnote": "^2.0.1",
+    "gulp-kss": "0.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-styledocco": "0.0.3",
+    "gulp-watch": "^4.3.11",
+    "kss": "^3.0.0-beta.18",
+    "require-dir": "^0.3.1",
+    "sc5-styleguide": "^1.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "gulp sass",
+    "watch": "gulp watch",
+    "kss": "gulp sass && gulp kss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuji60/test02.git"
+  },
+  "keywords": [
+    "kwjd4937"
+  ],
+  "author": "fujiwara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuji60/test02/issues"
+  },
+  "homepage": "https://github.com/fuji60/test02#readme"
+}
